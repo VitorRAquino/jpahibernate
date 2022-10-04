@@ -1,4 +1,4 @@
-package biblioteca;
+package br.com.biblioteca.model;
 
 
 import javax.persistence.*;

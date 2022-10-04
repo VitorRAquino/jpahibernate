@@ -1,18 +1,18 @@
-package bibliotecacadastro;
+package br.com.biblioteca;
 
-import biblioteca.Autor;
-import biblioteca.Categoria;
-import biblioteca.Livro;
-import bibliotecaDAO.AutorDAO;
-import bibliotecaDAO.CategoriaDAO;
-import bibliotecaDAO.LivroDAO;
-import bibliotecaJPAUtil.JPAUtils;
+import br.com.biblioteca.model.Autor;
+import br.com.biblioteca.model.Categoria;
+import br.com.biblioteca.model.Livro;
+import br.com.biblioteca.DAO.AutorDAO;
+import br.com.biblioteca.DAO.CategoriaDAO;
+import br.com.biblioteca.DAO.LivroDAO;
+import br.com.biblioteca.util.JPAUtils;
 
 import javax.persistence.EntityManager;
 import java.math.BigDecimal;
 import java.util.List;
 
-public class CadastroLivro {
+public class CadastroLivroMain {
 
     public static void main(String[] args) {
         cadastrarLivro();

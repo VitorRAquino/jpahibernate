@@ -1,7 +1,6 @@
-package bibliotecaDAO;
+package br.com.biblioteca.DAO;
 
-import biblioteca.Categoria;
-import biblioteca.Livro;
+import br.com.biblioteca.model.Livro;
 
 import javax.persistence.*;
 import java.math.BigDecimal;

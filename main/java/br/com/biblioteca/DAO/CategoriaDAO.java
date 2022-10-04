@@ -1,6 +1,6 @@
-package bibliotecaDAO;
+package br.com.biblioteca.DAO;
 
-import biblioteca.Categoria;
+import br.com.biblioteca.model.Categoria;
 
 import javax.persistence.EntityManager;
 
