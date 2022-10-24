@@ -4,6 +4,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+.gitkeep
 
 ### STS ###
 .apt_generated
@@ -32,4 +33,4 @@ build/
 .vscode/
 
 
-.gitkeep
+
