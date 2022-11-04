@@ -44,5 +44,4 @@ public class CadastroDeProduto {
         em.getTransaction().commit();
         em.close();
     }
-
 }
