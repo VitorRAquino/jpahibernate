@@ -14,7 +14,7 @@ public class PerformanceConsultas {
 
     public static void main(String[] args) {
 
-        //popularBancoDeDados();
+        popularBancoDeDados();
         EntityManager em = JPAUtil.getEntityManager();
 
         PedidoDao pedidoDao = new PedidoDao(em);

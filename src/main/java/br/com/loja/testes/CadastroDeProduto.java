@@ -3,6 +3,7 @@ package br.com.loja.testes;
 import br.com.loja.dao.CategoriaDao;
 import br.com.loja.dao.ProdutoDao;
 import br.com.loja.modelo.Categoria;
+import br.com.loja.modelo.CategoriaId;
 import br.com.loja.modelo.Produto;
 import br.com.loja.util.JPAUtil;
 
@@ -42,6 +43,9 @@ public class CadastroDeProduto {
         produtoDao.cadastrar(celular);
 
         em.getTransaction().commit();
+
+        em.find(Categoria.class, new CategoriaId("CELULARES ", "xpto"));
+
         em.close();
     }
 }
