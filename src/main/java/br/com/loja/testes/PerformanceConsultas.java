@@ -22,7 +22,6 @@ public class PerformanceConsultas {
         em.close();
         System.out.println(pedido.getCliente().getNome());
     }
-
     private static void popularBancoDeDados() {
         Categoria celulares = new Categoria("CELULARES");
         Categoria videogames = new Categoria("VIDEOGAMES");
